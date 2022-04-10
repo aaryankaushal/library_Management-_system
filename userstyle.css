@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Comforter+Brush&family=Dancing+Script:wght@700&family=Monoton&family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Odia:wght@100&family=Bangers&family=Comforter+Brush&family=Dancing+Script:wght@700&family=Monoton&family=Rubik+Moonrocks&display=swap');
+
+*{
+    background-image: url("bg2.jpg");
+}
+
+.text{
+    font-size: 70px;
+    margin: 10px;
+    margin-top: 1px;
+    font-family: 'Bangers', cursive;
+font-family: 'Comforter Brush', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Monoton', cursive;
+font-family: 'Rubik Moonrocks', cursive;
+color: white;
+}
+
+
+.innerright,label {
+    color: rgb(0, 0, 0);
+    font-weight:bold;
+}
+.container,
+.row,
+.imglogo {
+    margin:auto;
+}
+
+.innerdiv {
+    text-align: center;
+    /* width: 500px; */
+    margin: 100px;
+}
+input{
+    margin-left:20px;
+}
+.leftinnerdiv {
+    float: left;
+    width: 25%;
+}
+
+.rightinnerdiv {
+    float: right;
+    width: 75%;
+}
+
+.innerright {
+    background-color: rgb(105, 221, 105);
+}
+
+.greenbtn {
+    background-color: rgb(231, 2, 2);
+    color: white;
+    width: 95%;
+    height: 40px;
+    margin-top: 8px;
+}
+
+.greenbtn,
+a {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+
+th{
+    background-color: orange;
+    color: black;
+}
+td{
+    background-color: #fed8b1;
+    color: black;
+}
+td, a{
+    color:black;
+}
+
+
+
+
+
+
+
+.greenbtn,
+a {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+
+th{
+    background-color: rgb(8, 82, 116);
+    color: rgb(96, 10, 177);
+}
+td{
+    background-color: #fed8b1;
+    color: rgb(4, 250, 32);
+}
+td, a{
+    color:rgb(18, 216, 216);
+    padding: 10px;
+    
+}
+
+
+
+
+  
+  .greenbtn {
+    text-decoration: none;
+    border: 1px solid rgb(252, 252, 253);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .greenbtn:hover {
+    box-shadow: 1px 1px 25px 10px rgba(255, 255, 255, 0.4);
+  }
+  
+  .greenbtn:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      120deg,
+      transparent,
+      rgba(122, 122, 128, 0.4),
+      transparent
+    );
+    transition: all 650ms;
+  }
+  
+  .greenbtn:hover:before {
+    left: 100%;
+  }
+
+ 
+ 
+ 
+ 
+  .bookdetail{
+     margin: 10px;
+     padding: 10px;
+     text-align: center;
+     display: flex;
+ }
+ .bookimg{
+     width: 170px;
+     z-index: 100;
+     margin: 35px;
+     padding: 10px;
+ }
+
+
+
+ .btn {
+    text-decoration: none;
+    border: 1px solid rgb(252, 252, 253);
+    position: relative;
+    overflow: hidden;
+    padding: 10px;
+    color: white; 
+  }
+  
+  .btn:hover {
+    box-shadow: 1px 1px 20px 1px rgba(255, 255, 255, 0.451);
+  }
+  
+  .btn:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      120deg,
+      transparent,
+      rgba(211, 211, 218, 0.73),
+      transparent
+    );
+    transition: all 650ms;
+  }
+  
+  .btn:hover:before {
+    left: 100%;
+  }
+
+
+  .mid{
+      color: white;
+      margin: 30px;
+      display: flex;
+      
+  }
+
+  .submit{
+      margin: 50px;
+  }
+  
